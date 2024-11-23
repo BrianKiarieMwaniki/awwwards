@@ -1,8 +1,13 @@
+import Hero from "./components/Hero";
 
 const App = () => {
-  return <main>
-    <h1 className="text-5xl text-orange-500 font-bold">Welcome to Awwwards</h1>
-  </main>;
+  return (
+    <main className="relative w-screen min-h-screen overflow-x-hidden">
+      <Hero />
+
+      <section className="z-0 min-h-screen bg-blue-500"/>
+    </main>
+  );
 };
 
 export default App;
